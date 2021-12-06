@@ -1,10 +1,19 @@
 /******************* ELEMENTS ***********/
 body {
     text-align: center;
-    background-color: #343A40;
+    background-color: #f7f1d7;
     height: 100%;
     width: 100%;
 }
+hr {
+    margin: 10px auto;
+    width: 30%;
+    border-style: dotted none none;
+    border-color: black;
+    border-width: 5px;
+}
+/************** CLASSES **************/
+/**** Navigation *****/
 nav {
     padding: 0 20px;
     height: 5em;
@@ -13,18 +22,25 @@ nav a {
     font-family: 'Special Elite', cursive;
     font-size: 1.3em ;
 }
-hr {
-    color: #CED4DA;
-    margin: 40px auto;
-    width: 40%;
-    border-width: 10px;
+#icon-beyond {
+    width: 150px;
 }
-/************** CLASSES **************/
-
-
+.background-color {
+    background-color: #5b661e;
+}
+/**** Intro Section ****/
+.intro {
+    height: 200%;
+}
+.start-page h1{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    font-family: 'Special Elite', cursive;
+    font-weight: bolder;
+    color: #000;
+}
 /*** Perks ****/
 #perks {
-    background-color: #343A40;
     padding-top: 30px;
 }
 .perks {
@@ -35,46 +51,61 @@ hr {
     display: inline-block;
 }
 /** GALLERY *******/
+.VisualArt {
+    color: black;
+}
 .gallery{
     position: relative;
-    background-color: #0a1616;
+    background-color: #ddb892;
     margin: 2% auto;
     width: 90%;
     height: 430px;
     border-radius: 25px;
 }
-.gallery p, h1, h5{
-    color: #CED4DA;
+.gallery p,h1,h5{
+    color: black;
     display: inline-block;
     width: 100%;
     margin: auto auto;
 }
-.gallery h1,h5 {
+.gallery h1, h5 {
     font-family:'Special Elite', cursive ;
 }
 .gallery p {
     font-family: 'Poppins', sans-serif; 
 }
-.art-show {
+.art-show-right{
     position: absolute;
     top: 50%; left: 75%;
     transform: translate(-50%,-50%);
     float: right;
-    width: 45%;
-    height: 100%;
+    width: 48%;
+    height: 98%;
     border-radius: 25px;
 }
-.art-show:hover {
-    width: 50%;
-    transition: 0.5s;
-    border-radius: 25px;
-}
-.description {
+.description-left {
     position: absolute;
     top: 50%; left: 25%;
     transform: translate(-50%,-50%);
     display: inline-block;
-    width: 50%;
+    width: 45%;
+}
+.art-show-left{
+    position: absolute;
+    top: 50%; right: 25%;
+    transform: translate(-50%,-50%);
+    float: left;
+    width: 48%;
+    height: 98%;
+    border-radius: 25px;
+    margin: 0;
+}
+.description-right {
+    position: absolute;
+    top: 50%; left: 75%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    width: 45%;
 }
 
 /*********************** ID *******/
