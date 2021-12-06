@@ -1,0 +1,14 @@
+nav {
+    padding: 0 20px;
+    height: 5em;
+}
+nav a {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.3em ;
+}
+#icon-beyond {
+    width: 150px;
+}
+.background-color {
+    background-color: #5b661e;
+}
